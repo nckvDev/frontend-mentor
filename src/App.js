@@ -1,9 +1,9 @@
-import './App.css'
+import 'assets/css/App.css'
 import Card from './components/Card'
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <Card />
     </div>
   )

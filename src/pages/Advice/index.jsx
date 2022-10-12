@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import divider from '../../assets/images/pattern-divider-desktop.svg'
-import dice from '../../assets/images/icon-dice.svg'
+import divider from 'assets/images/pattern-divider-desktop.svg'
+import dice from 'assets/images/icon-dice.svg'
 import { Container, Dice, Divider, Slip, Title,PositionDice } from './card.style'
 import axios from 'axios'
 
