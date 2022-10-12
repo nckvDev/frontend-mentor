@@ -18,6 +18,7 @@ const AdviceLink = styled.div`
 
   a {
     color: var(--neon-green);
+    text-decoration: none;
   }
 `
 
