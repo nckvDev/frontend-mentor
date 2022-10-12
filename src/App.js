@@ -1,10 +1,12 @@
 import 'assets/css/App.css'
-import Card from './components/Card'
+import router from 'routes'
+
+import { RouterProvider } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <Card />
+      <RouterProvider router={router} />
     </div>
   )
 }

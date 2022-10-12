@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from 'react'
-import divider from 'assets/images/pattern-divider-desktop.svg'
-import dice from 'assets/images/icon-dice.svg'
-import { Container, Dice, Divider, Slip, Title,PositionDice } from './card.style'
+
 import axios from 'axios'
 
-const Card = () => {
+import dice from 'assets/images/icon-dice.svg'
+import divider from 'assets/images/pattern-divider-desktop.svg'
+
+import { Container, Dice, Divider, Slip, Title,PositionDice } from './card.style'
+
+const Advice = () => {
   const [slipData, setSlipData] = useState({})
 
   const getSlipData = async() => {
@@ -32,4 +35,4 @@ const Card = () => {
   )
 }
 
-export default Card
+export default Advice
