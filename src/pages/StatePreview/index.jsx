@@ -1,5 +1,7 @@
 import React from 'react'
-import { Box, Total } from './preview.style'
+import { Box, Image, Total } from './preview.style'
+import imgDek from 'assets/images/image-header-desktop.jpg'
+import Card from 'components/Card'
 
 const StatePreview = () => {
   const totals = [
@@ -16,6 +18,7 @@ const StatePreview = () => {
       label: 'queries',
     },
   ]
+
   const Content = () => {
     return (
       <Box>
@@ -38,9 +41,10 @@ const StatePreview = () => {
     )
   }
   return (
-    <div>
+    <Card>
       <Content />
-    </div>
+      <Image src={imgDek} alt="desk" />
+    </Card>
   )
 }
 
