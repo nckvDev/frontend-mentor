@@ -4,6 +4,8 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  gap: 1rem;
 `
 
 const AdviceLink = styled.div`
@@ -12,13 +14,16 @@ const AdviceLink = styled.div`
   border-radius: 0.25rem;
   background: var(--dark-grayish-blue);
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   a {
+    width: 100%;
+    height: 100%;
     color: var(--neon-green);
     text-decoration: none;
+    letter-spacing: 0.2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 `
 

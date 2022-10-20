@@ -8,6 +8,15 @@ const Home = () => {
       <AdviceLink>
         <Link to="advice">Advice</Link>
       </AdviceLink>
+      <AdviceLink>
+        <Link to="preview">Preview</Link>
+      </AdviceLink>
+      <AdviceLink>
+        <Link to="advice">Advice</Link>
+      </AdviceLink>
+      <AdviceLink>
+        <Link to="advice">Advice</Link>
+      </AdviceLink>
     </Container>
   )
 }

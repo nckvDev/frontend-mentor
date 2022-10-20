@@ -7,7 +7,7 @@
   --dark-blue: hsl(218, 23%, 16%);
 
   --font-size: 28px;
---font-family: 'Manrope';
+  --font-family: 'Manrope';
 }
 
 body {
@@ -17,5 +17,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: var(--dark-blue);
   box-sizing: border-box;
+  color: white;
 }
 
